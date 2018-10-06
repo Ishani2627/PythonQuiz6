@@ -1,0 +1,89 @@
+Que1 
+Option - A ([[[2,3,9]],[[2,3,9]],[[2,3,9]]])
+for the same data, loop will run 3 times
+
+Que2
+Option - B([0,2,4])
+range of data is 0 to 5, and the number should be divisible by 2, as it leaves remainder 0
+
+Que3
+Option - A(['G','F','G'])
+loop will start from 0 and it will traverse the string temp and will store the uppercase letters in an array
+
+Que4
+Option - A([2,2,6,4,4])
+it will store the digits but only those digits that are divisible by 2 or leaves remainder0 when divided by 2
+
+Que5
+Option - B([])
+if condition is not fulfilled, neither it is in range(20)
+
+Que6
+Option - C(11)
+list formed is [[1,[2,3],4],7,8,9]
+3 and 8 on addition gives 11
+
+Que7
+
+
+
+Que8
+Option - D([[5],2,3,4][[5],2,3,4][1,2,3,4][1,2,3,4])
+it is because changes are made in L1 and L2 = L1, so they will be reflected in L2 also, 
+but not in L3 as L1 is copied in L3 and it has taken a separate memory location
+
+Que9
+Option - not getting any of the Option
+my answer came as (28 36 40 68) 
+
+Que10
+Option - D(6 Type error)
+int and tuple can't be added
+
+Que11
+Option - B(5 8)
+    T.index(5) = 4
+->  T[T.index(5)] = 5
+    T[6] = 7
+    T[T[6]-3] = 7-3 = 4->5
+->  T[T[T[6]-3]-6] = 5-6 = -1->8
+
+Que12
+Option - C
+{0:0, 7:0, 1:1, 8:1}
+
+Que13
+Option - B(3)
+as value for the key is 3
+
+Que14
+Option - D(E Key error)
+    can only be accessed by key
+
+Que15
+Option - B({0:1, 1:1, 2:1})
+i will be 0,1,2 as it is in range 3
+j can be 0 and 1, and also D[i] = j, so it takes 1
+
+Que16
+Option - D([1,2,3,4](4,6,8,10))
+values of 1st element of the dictionary are changed and 4 is added, so D[1] becomes [1,2,3,4]
+values of 2nd element of the dictionaryare changed through list and then they are converted to tuple
+so D[2] becomes (4,6,8,10) 
+
+Que17
+Option - A(both b and d)
+d then b
+after deleting google key, 2 keys are left that will be printed , then dictionary is deleted so it will give an error
+
+Que18
+Option - D(none of these)
+keys are stored in alphabetical order in the dictionary
+and there would not be any error
+
+Que19
+Option - C(3)
+it takes random value(either 1 or 3)
+
+Que20
+[1,2,3,4]{'key2':566, 'key1: 44}
